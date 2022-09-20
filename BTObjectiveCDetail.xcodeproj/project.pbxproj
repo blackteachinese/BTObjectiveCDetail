@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E60F8BD528D965FF00414868 /* BTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E60F8BD428D965FF00414868 /* BTViewController.m */; };
+		E60F8BD828D9977100414868 /* NSString+BT.m in Sources */ = {isa = PBXBuildFile; fileRef = E60F8BD728D9977100414868 /* NSString+BT.m */; };
+		E60F8BE528D9ACD300414868 /* BTHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E60F8BE428D9ACD300414868 /* BTHandler.m */; };
 		E63DBB9E28D80D1F001497B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E63DBB9D28D80D1F001497B1 /* AppDelegate.m */; };
 		E63DBBA128D80D1F001497B1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E63DBBA028D80D1F001497B1 /* SceneDelegate.m */; };
 		E63DBBA428D80D1F001497B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63DBBA328D80D1F001497B1 /* ViewController.m */; };
@@ -37,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E60F8BD328D965FF00414868 /* BTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTViewController.h; sourceTree = "<group>"; };
+		E60F8BD428D965FF00414868 /* BTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTViewController.m; sourceTree = "<group>"; };
+		E60F8BD628D9977100414868 /* NSString+BT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+BT.h"; sourceTree = "<group>"; };
+		E60F8BD728D9977100414868 /* NSString+BT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+BT.m"; sourceTree = "<group>"; };
+		E60F8BE328D9ACD300414868 /* BTHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTHandler.h; sourceTree = "<group>"; };
+		E60F8BE428D9ACD300414868 /* BTHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTHandler.m; sourceTree = "<group>"; };
 		E63DBB9928D80D1F001497B1 /* BTObjectiveCDetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTObjectiveCDetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E63DBB9C28D80D1F001497B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E63DBB9D28D80D1F001497B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +119,12 @@
 				E63DBBA028D80D1F001497B1 /* SceneDelegate.m */,
 				E63DBBA228D80D1F001497B1 /* ViewController.h */,
 				E63DBBA328D80D1F001497B1 /* ViewController.m */,
+				E60F8BD328D965FF00414868 /* BTViewController.h */,
+				E60F8BD428D965FF00414868 /* BTViewController.m */,
+				E60F8BE328D9ACD300414868 /* BTHandler.h */,
+				E60F8BE428D9ACD300414868 /* BTHandler.m */,
+				E60F8BD628D9977100414868 /* NSString+BT.h */,
+				E60F8BD728D9977100414868 /* NSString+BT.m */,
 				E63DBBA528D80D1F001497B1 /* Main.storyboard */,
 				E63DBBA828D80D21001497B1 /* Assets.xcassets */,
 				E63DBBAA28D80D22001497B1 /* LaunchScreen.storyboard */,
@@ -267,9 +282,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E63DBBA428D80D1F001497B1 /* ViewController.m in Sources */,
+				E60F8BD828D9977100414868 /* NSString+BT.m in Sources */,
 				E63DBB9E28D80D1F001497B1 /* AppDelegate.m in Sources */,
 				E63DBBAF28D80D22001497B1 /* main.m in Sources */,
+				E60F8BE528D9ACD300414868 /* BTHandler.m in Sources */,
 				E63DBBA128D80D1F001497B1 /* SceneDelegate.m in Sources */,
+				E60F8BD528D965FF00414868 /* BTViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
